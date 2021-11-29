@@ -1,2 +1,2 @@
-# m-ze-bootstrap
+# muze-bootstrap
 bootstrap çalışmam
