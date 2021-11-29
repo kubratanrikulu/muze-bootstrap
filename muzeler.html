@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KÜLTÜR SANAT MÜZELER</title>
+    <meta name="description" content="Kültür sanat etkinlik web site çalışması müze listesi">
+    <meta name="keywords" content="Kültür sanat müzeler, kültür etkinlik müzeler">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+    <header id="ust" class="fixed-top">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-md navbar-light top-menu">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="resim/LOGO.png" alt="Kültür Sanat Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#acilirMenu"
+                    aria-controls="acilirMenu" aria-expanded="false" aria-label="Üst Açılır Menü">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="acilirMenu">
+                    <ul class=" navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                ANASAYFA
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hakkimizda.html" class="nav-link">
+                                HAKKIMIZDA
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sehirler.html" class="nav-link">
+                                ŞEHİRLER
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="muzeler.html" class="nav-link">
+                                MÜZELER
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="iletisim.html" class="nav-link">
+                                İLETİŞİM
+                            </a>
+                        </li>
+                        <li class="nav-item sosyalIcon">
+                            <a href="https://facebook.com" class="nav-link" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com" class="nav-link" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com" class="nav-link" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="yonlendirme" class="bg-light">
+        <div class="container-xl">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb p-3 ps-0">
+                  <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Müzeler</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section id="muzeListe">
+        <div class="container-xl">
+            <h1 class="text-center mb-4">
+                MÜZE LİSTESİ
+            </h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m1.png','PAMUKKALE ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m1.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('PAMUKKALE ÖREN YERİ','icerik-1')">
+                                <h5 class="card-title">
+                                    PAMUKKALE ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m2.png','EFES ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m2.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('EFES ÖREN YERİ','icerik-2')">
+                                <h5 class="card-title">
+                                    EFES ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m3.png','GÖREME ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m3.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('GÖREME ÖREN YERİ','icerik-3')">
+                                <h5 class="card-title">
+                                    GÖREME ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m1.png','PAMUKKALE ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m1.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('PAMUKKALE ÖREN YERİ','icerik-1')">
+                                <h5 class="card-title">
+                                    PAMUKKALE ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m2.png','EFES ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m2.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('EFES ÖREN YERİ','icerik-2')">
+                                <h5 class="card-title">
+                                    EFES ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m3.png','GÖREME ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m3.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('GÖREME ÖREN YERİ','icerik-3')">
+                                <h5 class="card-title">
+                                    GÖREME ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m1.png','PAMUKKALE ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m1.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('PAMUKKALE ÖREN YERİ','icerik-1')">
+                                <h5 class="card-title">
+                                    PAMUKKALE ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m2.png','EFES ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m2.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('EFES ÖREN YERİ','icerik-2')">
+                                <h5 class="card-title">
+                                    EFES ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="javascript:void(0)" onclick="resim('m3.png','GÖREME ÖREN YERİ')" data-bs-toggle="modal" data-bs-target="#resimGoster">
+                            <img src="resim/m3.png" alt="müze resim" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#icerikGoster" onclick="icerik('GÖREME ÖREN YERİ','icerik-3')">
+                                <h5 class="card-title">
+                                    GÖREME ÖREN YERİ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="derin-cizgi"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="resim/nevsehir.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade py-5" tabindex="-1" role="dialog" id="resimGoster" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content rounded-6 shadow">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="resimGosterBaslik">
+
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-0" id="resimGosterGovde">
+              
+            </div>
+            <br>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="icerikGoster" tabindex="-1" aria-labelledby="icerikGoster" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="icerikBaslik">
+
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="icerikGovde">
+                    
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="d-none" id="icerik-1">
+        <h2>İçerik 1</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit tenetur quae voluptatem a vel itaque, enim unde consectetur iure sequi labore amet officiis omnis quo consequuntur quis? Impedit, quae error.
+        </p>
+    </div>
+
+    <div class="d-none" id="icerik-2">
+        <h2>İçerik 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit tenetur quae voluptatem a vel itaque, enim unde consectetur iure sequi labore amet officiis omnis quo consequuntur quis? Impedit, quae error.
+        </p>
+    </div>
+
+    <div class="d-none" id="icerik-3">
+        <h2>İçerik 3</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit tenetur quae voluptatem a vel itaque, enim unde consectetur iure sequi labore amet officiis omnis quo consequuntur quis? Impedit, quae error.
+        </p>
+    </div>
+
+    <footer class="bg-dark">
+        <div class="text-center p-4 text-light">
+            &copy; 2021 İSMEK TÜM HAKLARI SAKLIDIR.
+        </div>
+    </footer>
+    <a href="#" class="yukari">
+        <img src="resim/page-up.png" alt="">
+    </a>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
