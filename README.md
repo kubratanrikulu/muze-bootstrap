@@ -1,2 +1,2 @@
 # muze-bootstrap
-bootstrap çalışmam
+Kurs ile Bootstrapt Müze Sayfa Çalışması
